@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/Student">
+        <file>main.qml</file>
+        <file alias="NeuPalette.js">../shared/ui/NeuPalette.js</file>
+        <file alias="NeuPanel.qml">../shared/ui/NeuPanel.qml</file>
+        <file alias="NeuButton.qml">../shared/ui/NeuButton.qml</file>
+        <file alias="NeuTextField.qml">../shared/ui/NeuTextField.qml</file>
+        <file alias="NeuToggle.qml">../shared/ui/NeuToggle.qml</file>
+    </qresource>
+</RCC>

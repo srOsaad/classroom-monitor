@@ -1,0 +1,18 @@
+# Normalise to LF in the repository so the tree is identical on Windows and
+# Linux checkouts. Without this, these files commit as CRLF and every line shows
+# as changed the first time someone edits them on another platform.
+* text=auto eol=lf
+
+*.cpp  text
+*.h    text
+*.qml  text
+*.pro  text
+*.pri  text
+*.md   text
+
+*.png  binary
+*.jpg  binary
+*.ico  binary
+*.zip  binary
+*.exe  binary
+*.dll  binary
